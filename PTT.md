@@ -27,7 +27,6 @@ git remote #查看远端仓库名
 git remote #查看远端地址
 ```
 
-海贼王
 
 ```shell
 git branch #查看本地仓库分支
