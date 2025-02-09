@@ -1,3 +1,6 @@
+---
+date: 2025-02-09
+---
 Screen 全屏窗口管理器，即使窗口不可见，Screen 也会在断开连接后继续运行命令。常用于远程运行长任务担心 SSH 会话掉线
 ```shell
 screen # Start a screen session  
