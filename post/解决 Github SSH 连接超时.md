@@ -1,13 +1,7 @@
 ---
-title: "解决 Github SSH 连接超时"
-source: "https://ww-rm.top/posts/2024/01/17/githubssh-timeout/"
-author:
-  - "[[暗香画楼]]"
+title: 解决 Github SSH 连接超时
 published: 2024-01-17
 created: 2025-03-26
-description: "解决 Github SSH 连接超时. 12$ ssh -T git@github.comssh: connect to host github.com port 22: Connection timed out"
-tags:
-  - "clippings"
 ---
 解决 Github SSH 连接超时.
 
