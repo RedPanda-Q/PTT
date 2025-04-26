@@ -74,4 +74,3 @@ Host github.com
 
 最后, Github 官方提供了它们的服务 IP 范围, [About GitHub's IP addresses](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-githubs-ip-addresses), 从里面可以找一个 ssh 连接成功, 然后写到配置里.
 
-PT
