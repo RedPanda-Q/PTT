@@ -77,8 +77,7 @@ Host github.com
 
 # 解决 IDEA 连接 Copilot 无响应
 
-IDEA 登录 Github Copilot 无响应，一直是 `Retrieving GitHub Device Code` 状态
-![[Pasted image 20250426121900.png|585]]
+IDEA 登录 Github Copilot 无响应，一直是 `Retrieving GitHub Device Code` 状态。
 这大概率是网络问题，可以在 IDEA 中配置手动代理，测试连接 Github 成功后，就可以弹 Device Code 的窗了；
 
 
