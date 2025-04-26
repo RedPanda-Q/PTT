@@ -2,7 +2,7 @@
 title: 解决 Github SSH 连接超时
 created: 2025-03-26
 ---
-解决 Github SSH 连接超时.
+# 解决 Github SSH 连接超时.
 
 ```bash
 $ ssh -T git@github.com
@@ -73,4 +73,13 @@ Host github.com
 这里面教你如何在 22 端口不可用时, 转用 443 端口, 但是 443 端口必须使用 `ssh.github.com`. 这也是网上大部分教程的出处. 但是由于这个问题不是端口导致的, 因此方法有效只是巧合罢了.
 
 最后, Github 官方提供了它们的服务 IP 范围, [About GitHub's IP addresses](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-githubs-ip-addresses), 从里面可以找一个 ssh 连接成功, 然后写到配置里.
+
+
+# 解决 IDEA 连接 Copilot 无响应
+
+IDEA 登录 Github Copilot 无响应，一直是 `Retrieving GitHub Device Code` 状态
+![[Pasted image 20250426121900.png|585]]
+这大概率是网络问题，可以在 IDEA 中配置手动代理，测试连接 Github 成功后，就可以弹 Device Code 的窗了；
+
+
 
